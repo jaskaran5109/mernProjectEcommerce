@@ -1,0 +1,118 @@
+#contact {
+    width: 100%;
+    height: fit-content;
+}
+
+.section-header {
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+    font-size: xx-large;
+}
+
+.contact-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contact-form {
+    width: 30%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-control {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 2% !important;
+}
+
+#contact-button {
+    justify-content: center;
+    width: 96%;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: tomato;
+}
+
+#contact-button:hover {
+    background-color: rgba(255, 99, 71, 0.795);
+
+}
+
+.direct-contact-container {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.contact-list {
+    font-size: x-large;
+    line-height: 4;
+    list-style-type: none;
+    color: black !important;
+    font-weight: bold;
+}
+
+.contact-text>a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .section-header {
+        text-align: center;
+        margin-top: 20% !important;
+        color: black;
+        font-size: xx-large;
+    }
+
+    .contact-wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #contact-form {
+        width: 90%;
+    }
+
+    #contact-button {
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section-header {
+        text-align: center;
+        margin-top: 20% !important;
+        color: black;
+        font-size: xx-large;
+    }
+
+    .contact-wrapper {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #contact-form {
+        width: 90%;
+    }
+
+    #contact-button {
+        width: 95%;
+        margin-left: 10px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+}
