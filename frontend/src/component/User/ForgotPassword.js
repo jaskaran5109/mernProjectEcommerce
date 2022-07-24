@@ -1,7 +1,7 @@
 import React, { Fragment, useState ,useEffect} from 'react'
 import './ForgotPassword.css'
 import { useHistory} from 'react-router-dom'
-import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import {useAlert} from 'react-alert'
 import {useDispatch,useSelector} from 'react-redux'
 import {clearErrors,forgotPassword} from '../../actions/userAction'
@@ -54,7 +54,7 @@ const ForgotPassword = () => {
               >
                
                 <div className="forgotPasswordEmail">
-                  <MailOutlinedIcon />
+                  <MailOutlineIcon />
                   <input
                     type="email"
                     placeholder="Email"

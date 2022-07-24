@@ -1,7 +1,7 @@
 import React, { Fragment, useRef,useState ,useEffect} from 'react'
 import './LoginSignup.css'
 import {Link} from 'react-router-dom'
-import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import LockOpenIcon from '@mui/icons-material/LockOpen'
 import FaceIcon from '@mui/icons-material/Face'
 import {useAlert} from 'react-alert'
@@ -119,7 +119,7 @@ const LoginSignup = ({history,location}) => {
                 </div>
                 <form className="loginForm" ref={loginTab} onSubmit={loginSubmit}>
                   <div className="loginEmail">
-                    <MailOutlinedIcon />
+                    <MailOutlineIcon />
                     <input
                       type="email"
                       placeholder="Email"
@@ -159,7 +159,7 @@ const LoginSignup = ({history,location}) => {
                     />
                   </div>
                   <div className="signUpEmail">
-                    <MailOutlinedIcon />
+                    <MailOutlineIcon />
                     <input
                       type="email"
                       placeholder="Email"

@@ -1,7 +1,7 @@
 import React, { Fragment,useState ,useEffect} from 'react'
 import './UpdateProfile.css'
 import { useHistory, useLocation} from 'react-router-dom'
-import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import FaceIcon from '@mui/icons-material/Face'
 import {useAlert} from 'react-alert'
 import {useDispatch,useSelector} from 'react-redux'
@@ -96,7 +96,7 @@ const UpdateProfile = () => {
                   />
                 </div>
                 <div className="updateProfileEmail">
-                  <MailOutlinedIcon />
+                  <MailOutlineIcon />
                   <input
                     type="email"
                     placeholder="Email"
