@@ -12,22 +12,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@testing-library/react": "^13.0.1",
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.20.0",
-    "cloudinary": "^1.30.0",
-    "cookie-parser": "^1.4.6",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
-    "express-fileupload": "^1.4.0",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.26.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.4.4",
-    "nodemailer": "^6.7.7",
-    "nodemon": "^2.0.19",
-    "react": "^18.2.0",
-    "react-router-dom": "^5.3.3",
-    "stripe": "^9.13.0",
-    "validator": "^13.7.0",
-    "webfontloader": "^1.6.28"
+    "mongoose": "^5.13.5",
+    "nodemailer": "^6.6.3",
+    "stripe": "^8.174.0",
+    "validator": "^13.6.0"
   }
 }
