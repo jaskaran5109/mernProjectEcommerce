@@ -1,0 +1,38 @@
+.about{
+    width:100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.aboutMeHeading{
+    text-align: center;
+    margin: 50px;
+    font-size: xx-large;
+}
+.aboutCard{
+    margin: auto;
+    width:300px !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.aboutcontainer{
+    padding:20px;
+}
+.aboutImage{
+    width:300px;
+    height: 300px;
+}
+.aboutDesc{
+    padding:10px;
+}
+.aboutButton{
+    font-weight: bold !important;
+    width:260px;
+    list-style: none;
+    color: black !important ;
+    background-color: tomato !important;
+    margin-top: 10px !important;
+}
+.aboutButton:hover{
+    background-color: rgba(255, 99, 71, 0.801) !important;
+}
