@@ -2,8 +2,8 @@ import React, { Fragment, useRef,useState ,useEffect} from 'react'
 import './LoginSignup.css'
 import {Link} from 'react-router-dom'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import LockOpenIcon from '@mui/icons-material/LockOpen'
-import FaceIcon from '@mui/icons-material/Face'
+import LockOpenIcon from '@mui/icons-material/LockOpen';
+import FaceIcon from '@mui/icons-material/Face';
 import {useAlert} from 'react-alert'
 import {useDispatch,useSelector} from 'react-redux'
 import {clearErrors,login, register} from '../../actions/userAction'
