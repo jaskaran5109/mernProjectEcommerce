@@ -81,6 +81,7 @@
   
   .productCard > img {
     width: 16vmax;
+    height:22vmax;
   }
   
   .productCard > div {
