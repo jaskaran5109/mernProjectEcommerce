@@ -161,6 +161,7 @@
   }
   
   @media screen and (max-width: 600px) {
+    
     .LoginSignUpContainer {
       background-color: white;
     }
@@ -197,6 +198,7 @@
   
     #registerImage > img {
       width: 8vmax;
+      height:8vmax;
       border-radius: 100%;
     }
   

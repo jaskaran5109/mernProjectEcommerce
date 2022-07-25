@@ -21,7 +21,7 @@
 
 .profileContainer>div:first-child>h1 {
   color: rgba(0, 0, 0, 0.555);
-  font: 500 2.2vmax "Roboto";
+  font: 500 2.2vmax "serif";
   transform: translateX(-10vmax) translateY(-2vmax);
 }
 
@@ -39,7 +39,7 @@
 .profileContainer>div:first-child>a {
   border: none;
   background-color: tomato;
-  font: 400 1vmax "Roboto";
+  font: 400 1vmax "serif";
   color: white;
   text-decoration: none;
   padding: 0.5vmax;
@@ -62,7 +62,7 @@
 
 .profileContainer>div:last-child>div>h4 {
   color: black;
-  font: 400 1.2vmax "Roboto";
+  font: 400 1.2vmax "serif";
 }
 
 .profileContainer>div:last-child>div>p {
@@ -80,7 +80,7 @@
 .profileContainer>div:last-child>div:last-child>a {
   border: none;
   background-color: rgb(68, 68, 68);
-  font: 400 1vmax "Roboto";
+  font: 400 1vmax "serif";
   color: white;
   text-decoration: none;
   padding: 0.5vmax;
@@ -99,12 +99,12 @@
   }
 
   .profileContainer>div:first-child>h1 {
-    font: 500 3.2vmax "Roboto";
+    font: 500 3.2vmax "serif";
     transform: translateY(-2vmax);
   }
 
   .profileContainer>div:first-child>a {
-    font: 400 1.7vmax "Roboto";
+    font: 400 1.7vmax "serif";
     padding: 1vmax;
   }
 
@@ -114,7 +114,7 @@
   }
 
   .profileContainer>div:last-child>div>h4 {
-    font: 400 2.5vmax "Roboto";
+    font: 400 2.5vmax "serif";
   }
 
   .profileContainer>div:last-child>div>p {
@@ -123,7 +123,7 @@
   }
 
   .profileContainer>div:last-child>div:last-child>a {
-    font: 400 1.8vmax "Roboto";
+    font: 400 1.8vmax "serif";
     padding: 1vmax;
     margin: 2vmax 0;
   }
