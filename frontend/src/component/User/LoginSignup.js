@@ -187,6 +187,7 @@ const LoginSignup = ({history,location}) => {
                       type="file"
                       name="avatar"
                       accept="image/*"
+                      required
                       onChange={registerDataChange}
                     />
                   </div>
