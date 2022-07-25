@@ -18,7 +18,7 @@ const categories=[
     "Tops",
     "Attire",
     "Camera",
-    "Smartphones"
+    "SmartPhones"
 ]
 
 
