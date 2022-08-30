@@ -1,4 +1,4 @@
-<a href="https://jaskaran-profile.web.app/">DEMO</a>
+<a href="https://ecommerce-mern-web.herokuapp.com/">DEMO</a>
 
 MERN E-COMMERCE TUTORIAL
 Hi! My name is Jaskaran Singh
